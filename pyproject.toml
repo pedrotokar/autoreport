@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "autoreport"
+version = "0.1.0"
+description = "Gerador de arquivos em LaTeX desenvolvido nas aulas de introdução à computação"
+authors = ["pedrotokar <pedrotokar2004@gmail.com>"]
+license = "GPL v3"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
