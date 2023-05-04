@@ -1,0 +1,14 @@
+\documentclass[11pt]{article}
+
+\usepackage[utf8]{inputenc}
+\title{ {{ titulo }} }
+\author{ {{ autor }} }
+
+\begin{document}
+\maketitle
+
+{% for sessao in sessoes %}
+    {{sessao}}
+{% endfor %}
+
+\end{document}
